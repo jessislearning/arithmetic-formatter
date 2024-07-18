@@ -5,7 +5,7 @@ def arithmetic_arranger(problems):
         #return "Error: Too many problems."
         raise ValueError("Error: Too many problems.")
 
-    # Split the equation into A (operand) B format:
+    # Split the equation this format: A +/- B
     A = []
     operator = []
     B = []
@@ -14,11 +14,7 @@ def arithmetic_arranger(problems):
         A.append(equation_parts[0])
         operator.append(equation_parts[1])
         B.append(equation_parts[2])
-    
-    #print(A, operator, B)
-        # the strategy here is putting the split elements into lists
-        # the lists should be line1 (containing A), operator (+/-), line2 (containing B)
-
+        
     # Checking for Error 2 : Operator must be '+' or '-'.
     acceptable_char = "+-"
     for char in operator:
