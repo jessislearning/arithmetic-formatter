@@ -1,17 +1,20 @@
 # Arithmetic Formatter
 
-The Arithmetic Formatter is a python program takes an arithmetic equation and displays it vertically.<br>
+The Arithmetic Formatter is a ✨Python✨ program takes an arithmetic equation and displays it vertically.<br>
 <br>
 The format is specified such that:<br>
-- a single space separates the operator and the first digit of the larger number<br>
-- the equation is right aligned<br>
-- equations are separated by 4 spaces<br>
+✓ a single space separates the operator and the first digit of the larger number<br>
+✓ the equation is right aligned<br>
+✓ equations are separated by 4 spaces<br>
+<br>
+⭐️ An option to show the sum or difference is available
+<br>
 <br>
 Errors are also raised when:<br>
-- more than 5 equations are given<br>
-- multiplication and division are not allowed, only + or - operations are accepted<br>
-- characters must be numeric<br>
-- operands must also be 4 digits or less<br>
+🚫 more than 5 equations are given<br>
+🚫 multiplication and division are not allowed, only + or - operations are accepted<br>
+🚫 characters must be numeric<br>
+🚫 operands must also be 4 digits or less<br>
 <br>
 <br>
 
